@@ -1,3 +1,12 @@
+# Calculator
+
+## Milestone 1
+
+#### In this milestone I:
++ Created the app.
++ Deployed to Heroku
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
