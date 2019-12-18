@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const Button = (name) => (
+export const Button = ({ name }) => (
 	<div>
 		<button className="button">{name}</button>
 	</div>
