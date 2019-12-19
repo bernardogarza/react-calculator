@@ -1,5 +1,4 @@
 {
-  "parser": "babel-eslint",
   "env": {
     "browser": true,
     "es6": true,
@@ -15,13 +14,8 @@
   "extends": ["airbnb", "plugin:react/recommended"],
   "plugins": ["react"],
   "rules": {
-    "react/jsx-filename-extension": 0,
-    "import/no-unresolved": 0,
-    "import/extensions": "off",
-    "arrow-parens":"off",
-    "radix":"off",
-    "no-unused-vars":"off",
-    "comma-dangle": ["error", "never"],
-    "array-bracket-spacing": [false, "never"]
+    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+    "import/no-unresolved": "off",
+    "no-shadow": "off"
   }
 }
