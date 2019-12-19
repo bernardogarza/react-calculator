@@ -1,14 +1,11 @@
-import React from "react";
-import Display from "../display/display.component";
-import ButtonPanel from "../button-panel/button-panel.component";
+import React from 'react';
+import Display from '../display/display.component';
+import ButtonPanel from '../button-panel/button-panel.component';
 
-const App = () => {
-  return (
-    <div>
-      <Display />
-      <ButtonPanel />
-    </div>
-  );
-}
+const App = () =>
+  (<div>
+    <Display />
+    <ButtonPanel />
+  </div>);
 
 export default App;
