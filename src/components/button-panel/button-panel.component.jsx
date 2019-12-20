@@ -17,7 +17,14 @@ const ButtonPanel = () => (
     <div className="row2 rows">{buttons[1].map(el => <Button name={el} key={el} />)}</div>
     <div className="row3 rows">{buttons[2].map(el => <Button name={el} key={el} />)}</div>
     <div className="row4 rows">{buttons[3].map(el => <Button name={el} key={el} />)}</div>
-    <div className="row5 rows">{buttons[4].map(el => <Button name={el} key={el} />)}</div>
+    <div className="row5 rows">{buttons[4].map(el => {
+      if (el === "0") {
+        return <Button name={el} key={el} wide={true} />
+      } else {
+        return <Button name={el} key={el} />
+      }
+    })}
+    </div>
   </div>
 );
 

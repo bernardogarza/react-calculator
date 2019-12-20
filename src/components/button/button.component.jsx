@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 import './button.style.scss'
 
-const Button = ({ name }) => (
-  <div className="button">
+const Button = ({ name, wide }) => (
+  <div className="button" style={{ width: wide === true ? '50%' : '25%' }}>
     <button type="button">
       {name}
     </button>
