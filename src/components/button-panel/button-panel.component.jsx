@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../button/button.component';
 
-import './button-panel.style.scss'
+import './button-panel.style.scss';
 
 const buttons = [
   ['AC', '+/-', '%', '÷'],
@@ -13,18 +13,22 @@ const buttons = [
 
 const ButtonPanel = () => (
   <div className="buttons">
-    <div className="row1 rows">{buttons[0].map(el => <Button name={el} key={el} />)}</div>
-    <div className="row2 rows">{buttons[1].map(el => <Button name={el} key={el} />)}</div>
-    <div className="row3 rows">{buttons[2].map(el => <Button name={el} key={el} />)}</div>
-    <div className="row4 rows">{buttons[3].map(el => <Button name={el} key={el} />)}</div>
-    <div className="row5 rows">{buttons[4].map(el => {
-      if (el === "0") {
-        return <Button name={el} key={el} wide={true} />
-      } else {
-        return <Button name={el} key={el} />
-      }
-    })}
-    </div>
+    {
+      buttons.map((button, index) => (
+        <div className="rows" key={`row${index + 1}}`}>
+          {button.map((el, i) => {
+            if (el === '0') {
+              return <Button name={el} key={el} wide />;
+            }
+            if (i === button.length - 1) {
+              return <Button name={el} key={el} wide={false} color />;
+            }
+            return <Button name={el} key={el} wide={false} color={false} />;
+          })}
+
+        </div>
+      ))
+    }
   </div>
 );
 
