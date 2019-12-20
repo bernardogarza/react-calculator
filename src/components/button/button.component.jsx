@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-
+import './button.style.scss'
 
 const Button = ({ name }) => (
-  <div>
-    <button type="button" className="button">
+  <div className="button">
+    <button type="button">
       {name}
     </button>
   </div>

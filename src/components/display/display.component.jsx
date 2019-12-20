@@ -1,8 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './display.style.scss'
 
-const Display = ({ result }) => <div className="display">{result}</div>;
+
+const Display = ({ result }) => <div className="display"><p>{result}</p></div>;
 
 Display.propTypes = {
   result: PropTypes.string,
