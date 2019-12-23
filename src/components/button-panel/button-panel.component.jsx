@@ -16,15 +16,14 @@ const ButtonPanel = () => (
     {
       buttons.map((button, index) => (
         <div className="rows" key={`row${index + 1}}`}>
-          {button.map((el, i) => {
-            if (el === '0') {
-              return <Button name={el} key={el} wide />;
-            }
-            if (i === button.length - 1) {
-              return <Button name={el} key={el} wide={false} color />;
-            }
-            return <Button name={el} key={el} wide={false} color={false} />;
-          })}
+          {button.map((el, i) => (
+            <Button
+              name={el}
+              key={el}
+              wide={el === '0'}
+              color={i === button.length - 1}
+            />
+          ))}
 
         </div>
       ))
