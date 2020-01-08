@@ -1,6 +1,6 @@
 # Calculator
 
-## Milestone 1
+## Milestone 5
 
 #### In this milestone I:
 + Implemented the UI logic.
