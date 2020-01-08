@@ -1,4 +1,4 @@
-import Big from 'big.js';
+import Big from 'big';
 
 const operate = (numberOne, numberTwo, operation) => {
   const n1 = parseFloat(Big(numberOne));
