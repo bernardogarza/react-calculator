@@ -3,8 +3,7 @@
 ## Milestone 1
 
 #### In this milestone I:
-+ Created the app.
-+ Deployed to Heroku.
++ Implemented the UI logic.
 
 ### Heroku URL:
 + https://react-calculator-microverse.herokuapp.com/
