@@ -1,9 +1,6 @@
 # Calculator
 
-## Milestone 5
-
-#### In this milestone I:
-+ Implemented the UI logic.
++ This is a project for the Microverse main curriculum. In this project I created a web app of a calculator using react.
 
 ### Heroku URL:
 + https://react-calculator-microverse.herokuapp.com/
