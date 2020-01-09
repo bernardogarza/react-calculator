@@ -4,7 +4,12 @@ import PropTypes from 'prop-types';
 import './display.style.scss';
 
 
-const Display = ({ result }) => <div className="display"><p>{result}</p></div>;
+const Display = (props) => {
+  const { result } = props;
+  return (
+    <div className="display">{result}</div>
+  );
+};
 
 Display.propTypes = {
   result: PropTypes.string,
