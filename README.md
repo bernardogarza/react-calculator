@@ -1,9 +1,20 @@
 # Calculator
 
-+ This is a project for the Microverse main curriculum. In this project I created a web app of a calculator using react.
+This is a project for the Microverse main curriculum. In this project I created a web app of a calculator using react.
 
-### Heroku URL:
-+ https://react-calculator-microverse.herokuapp.com/
+## Author
+
+**[Bernardo Garza Landa](https://bernardogarza.me/)** - bernardo.g.landa@gmail.com
+
+### Live Demo
+> https://react-calculator-microverse.herokuapp.com/
+
+## Screenshot
+
+![Calculator](calc.png?raw=true "Screenshot")
+
+#
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
