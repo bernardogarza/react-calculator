@@ -4,7 +4,7 @@ This is a project for the Microverse main curriculum. In this project I created 
 
 ## Author
 
-**[Bernardo Garza Landa](https://bernardogarza.me/)** - bernardo.g.landa@gmail.com
+**[Bernardo Garza Landa](https://bernardogarza.me/)** - bernardo.g.landa@gmail.com - [Portfolio](https://bernardogarza.me) - [LinkedIn](https://www.linkedin.com/in/bernardo-g-landa/)
 
 ### Live Demo
 > https://react-calculator-microverse.herokuapp.com/
