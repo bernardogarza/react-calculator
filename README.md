@@ -7,7 +7,7 @@ This project is built using react. It's a regular and functional calculator.
 **[Bernardo Garza Landa](https://bernardogarza.me/)** - bernardo.g.landa@gmail.com - [Portfolio](https://bernardogarza.me) - [LinkedIn](https://www.linkedin.com/in/bernardo-g-landa/)
 
 ### Live Demo
-> https://react-calculator-microverse.herokuapp.com/
+> https://bernardogarza.github.io/react-calculator/
 
 ## Screenshot
 
