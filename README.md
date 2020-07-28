@@ -1,6 +1,6 @@
 # Calculator
 
-This is a project for the Microverse main curriculum. In this project I created a web app of a calculator using react.
+This project is built using react. It's a regular and functional calculator.
 
 ## Author
 
